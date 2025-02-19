@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "portfolio"
+version = "1.0"
+description = "Portfolio Project"
+authors = ["Aline Silveira"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.10.0"
+livereload = "^2.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

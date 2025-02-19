@@ -1,0 +1,221 @@
+---
+format: jb-book
+root: content/intro
+chapters:
+  - file: content/simple/index
+    title: 🐍 Módulos Built-in do Python
+    sections:
+
+      - file: content/simple/argparse/index
+        title: Biblioteca Argparse
+        sections:
+          - file: content/simple/argparse/add_argument
+            title: Criar um Argumento Simples
+          - file: content/simple/argparse/type
+            title: Definir o Tipo do Argumento
+          - file: content/simple/argparse/default
+            title: Definir um Valor Padrão
+          - file: content/simple/argparse/choices
+            title: Restringir Valores
+          - file: content/simple/argparse/nargs
+            title: Definir Quantidade de Argumentos
+          - file: content/simple/argparse/action_true
+            title: Criar um Argumento de Flag
+          - file: content/simple/argparse/required_true
+            title: Tornar Argumentos Obrigatórios
+          - file: content/simple/argparse/metavar
+            title: Melhorar a Ajuda do Comando
+
+      - file: content/simple/collections/index
+        title: Biblioteca Collections
+        sections:
+          - file: content/simple/collections/Counter
+            title: Contagem de Elementos
+          - file: content/simple/collections/defaultdict
+            title: Dicionário com Valores Padrão
+          - file: content/simple/collections/OrderedDict
+            title: Dicionário Ordenado
+          - file: content/simple/collections/deque
+            title: Lista de Alta Performance
+          - file: content/simple/collections/namedtuple
+            title: Tupla Nomeada
+          - file: content/simple/collections/ChainMap
+            title: Combinar Múltiplos Dicionários
+
+      - file: content/simple/csv/index
+        title: Biblioteca CSV
+        sections:
+          - file: content/simple/csv/csv.writer
+            title: Escrevendo em um Arquivo CSV
+          - file: content/simple/csv/csv.reader
+            title: Lendo um Arquivo CSV
+          - file: content/simple/csv/csv.DictWriter
+            title: Escrevendo CSV com Dicionários
+          - file: content/simple/csv/csv.DictReader
+            title: Lendo CSV como Dicionário
+          - file: content/simple/csv/csv.QUOTE
+            title: Controlando Aspas nos Arquivos CSV
+
+      - file: content/simple/datetime/index
+        title: Biblioteca Datetime
+        sections:
+          - file: content/simple/datetime/date_diff
+            title: Diferença entre Datas
+          - file: content/simple/datetime/add_days
+            title: Adicionar/Subtrair Dias
+          - file: content/simple/datetime/week_day
+            title: Exibição do Dia da Semana
+          - file: content/simple/datetime/format_date
+            title: Formatação de Datas
+          - file: content/simple/datetime/leap_year
+            title: Verificação de Ano Bissexto
+
+      - file: content/simple/functools/index
+        title: Biblioteca Functools
+        sections:
+          - file: content/simple/functools/factorial
+            title: Cálculo de Fatorial
+          - file: content/simple/functools/sin_function
+            title: Cálculo do Seno
+          - file: content/simple/functools/sqrt
+            title: Raiz Quadrada
+          - file: content/simple/functools/log
+            title: Logaritmo Natural
+          - file: content/simple/functools/pi_value
+            title: Constante Pi
+
+      - file: content/simple/json/index
+        title: Biblioteca Json
+        sections:
+          - file: content/simple/json/factorial
+            title: Cálculo de Fatorial
+          - file: content/simple/json/sin_function
+            title: Cálculo do Seno
+          - file: content/simple/json/sqrt
+            title: Raiz Quadrada
+          - file: content/simple/json/log
+            title: Logaritmo Natural
+          - file: content/simple/json/pi_value
+            title: Constante Pi
+
+      - file: content/simple/logging/index
+        title: Biblioteca Logging
+        sections:
+          - file: content/simple/logging/factorial
+            title: Cálculo de Fatorial
+          - file: content/simple/logging/sin_function
+            title: Cálculo do Seno
+          - file: content/simple/logging/sqrt
+            title: Raiz Quadrada
+          - file: content/simple/logging/log
+            title: Logaritmo Natural
+          - file: content/simple/logging/pi_value
+            title: Constante Pi
+
+      - file: content/simple/math/index
+        title: Biblioteca Math
+        sections:
+          - file: content/simple/math/factorial
+            title: Cálculo de Fatorial
+          - file: content/simple/math/sin_function
+            title: Cálculo do Seno
+          - file: content/simple/math/sqrt
+            title: Raiz Quadrada
+          - file: content/simple/math/log
+            title: Logaritmo Natural
+          - file: content/simple/math/pi_value
+            title: Constante Pi
+
+      - file: content/simple/os/index
+        title: Biblioteca OS
+        sections:
+          - file: content/simple/os/list_files
+            title: Listar Arquivos
+          - file: content/simple/os/create_dir
+            title: Criar Diretório
+          - file: content/simple/os/rename_file
+            title: Renomear Arquivo
+          - file: content/simple/os/delete_file
+            title: Excluir Arquivo
+          - file: content/simple/os/check_dir
+            title: Verificar se Diretório Existe
+
+      - file: content/simple/os_path/index
+        title: Biblioteca OS Path
+        sections:
+          - file: content/simple/os_path/is_directory
+            title: Verificar se Caminho é um Diretório
+          - file: content/simple/os_path/is_file
+            title: Verificar se Caminho é um Arquivo
+          - file: content/simple/os_path/get_filename
+            title: Obter Nome do Arquivo
+          - file: content/simple/os_path/get_parent_dir
+            title: Obter Diretório Pai
+          - file: content/simple/os_path/join_paths
+            title: Juntar Componentes de um Caminho
+
+      - file: content/simple/random/index
+        title: Biblioteca Random
+        sections:
+          - file: content/simple/random/generate_password
+            title: Gerador de Senhas Aleatórias
+          - file: content/simple/random/shuffle_list
+            title: Embaralhar uma Lista
+          - file: content/simple/random/random_choice
+            title: Escolher um Elemento Aleatório
+          - file: content/simple/random/dice_roll
+            title: Simulação de Lançamento de Dados
+          - file: content/simple/random/sample_population
+            title: Amostragem Aleatória
+
+      - file: content/simple/re/index
+        title: Biblioteca Re
+        sections:
+          - file: content/simple/re/re
+            title: Introdução ao `re`
+          - file: content/simple/re/re_match
+            title: Usando `re.match`
+          - file: content/simple/re/re_search
+            title: Usando `re.search`
+          - file: content/simple/re/re_findall
+            title: Usando `re.findall`
+          - file: content/simple/re/re_sub
+            title: Substituindo com `re.sub`
+
+      - file: content/simple/shutil/index
+        title: Biblioteca Shutil
+        sections:
+          - file: content/simple/shutil/exception_handling
+            title: Manipulação de Exceções
+          - file: content/simple/shutil/env_info
+            title: Informações do Ambiente
+          - file: content/simple/shutil/configs
+            title: Configurações do Interpretador
+          - file: content/simple/shutil/io
+            title: Manipulação de Entrada/Saída
+
+      - file: content/simple/sys/index
+        title: Biblioteca Sys
+        sections:
+          - file: content/simple/sys/exception_handling
+            title: Manipulação de Exceções
+          - file: content/simple/sys/env_info
+            title: Informações do Ambiente
+          - file: content/simple/sys/configs
+            title: Configurações do Interpretador
+          - file: content/simple/sys/io
+            title: Manipulação de Entrada/Saída
+
+      - file: content/simple/time/index
+        title: Biblioteca Time
+        sections:
+          - file: content/simple/time/date_diff
+            title: Diferença entre Datas
+          - file: content/simple/time/add_days
+            title: Adicionar/Subtrair Dias
+          - file: content/simple/time/week_day
+            title: Exibição do Dia da Semana
+          - file: content/simple/time/format_date
+            title: Formatação de Datas
+          - file: content/simple/time/leap_year
+            title: Verificação de Ano Bissexto
